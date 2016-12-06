@@ -1,0 +1,58 @@
+1. REmove all lines that don't have an article
+
+2. figure out word embeddings
+
+3. write the features outlined in teh papers
+features:
+
+    prepprocess
+    stopwords removed, tokenize unigrams and bigrams
+    training and test converted to tf-idf - BNS too?
+
+    separate headline and article features?
+
+
+    burfoot and baldwin
+    use binary features
+
+    1. binary feature detecting profanity
+
+    1. slang/informality measure
+
+    semantic validity - stanford named entity recognizer
+    
+
+    IIIT
+    NRC and SENTICNet emotion lexicon for sentiments
+    count the number of positives and negatives
+    Speech acts
+    number of scores for each sense from sensicon
+
+    flips of sentiment, start out positive go negative or vice versa
+
+    hyperbole - three positive or negative words in a row
+
+    imagery
+    
+    onomotopaeia
+
+
+    kings
+    absurdity - uses named entity recognizer and nltk
+
+
+
+4 performa analyses
+
+
+To implement before presentation:
+    finish corpus - remove nonsense, get newswire articles
+
+    create preprocessor - remove stopwords. ctokenize to unigrams and bigrams.
+
+
+IIIT http://sentic.net/sentire2016reganti.pdf
+
+kings http://www.aclweb.org/anthology/W/W16/W16-0802.pdf
+
+

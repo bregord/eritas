@@ -1,4 +1,32 @@
-1. REmove all lines that don't have an article
+TODO::::
+BEFORE SUBMISSION, 
+add all the features never added
+
+
+
+TOKENIZE
+
+http://www.cs.toronto.edu/pub/gh/Budanitsky+Hirst-2001.pdf
+
+N-GRAMS FOR 
+
+#features to add:
+-WORD EMBEDDINGS?!
+
+
+
+FOR THE REPORT:
+    run on all the different features, and show the precision and recall, and accuracy for all.
+    compare against baseline
+
+
+    need figures and shit
+    it's 4 pages of content
+
+    try SVM, Linear Regression, Neural Net
+
+
+
 
 2. figure out word embeddings
 
@@ -41,7 +69,6 @@ features:
     absurdity - uses named entity recognizer and nltk
 
 
-
 4 performa analyses
 
 
@@ -53,6 +80,11 @@ To implement before presentation:
 
 IIIT http://sentic.net/sentire2016reganti.pdf
 
+
 kings http://www.aclweb.org/anthology/W/W16/W16-0802.pdf
 
 
+FINDING A CORPUS IS PROVING TO BE NEXT TO IMPOSSIBLE. I SAY, I TRY REUTERS. If not, use the reddit https://www.kaggle.com/rootuser/worldnews-on-reddit world news corpus, use the onion headlines, and maybe reddit/r/nothteonion to see if I can detect satirical headlines
+
+
+http://cs229.stanford.edu/proj2015/044_report.pdf
